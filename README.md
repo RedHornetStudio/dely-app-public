@@ -1,1 +1,0 @@
-# dely-app-public
