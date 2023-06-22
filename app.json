@@ -1,0 +1,59 @@
+{
+  "expo": {
+    "name": "Dely",
+    "slug": "Dely",
+    "version": "1.0.47",
+    "orientation": "portrait",
+    "icon": "./assets/dely-icon.png",
+    "splash": {
+      "image": "./assets/dely-splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#171717"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/dely-adaptive-icon.png",
+        "backgroundColor": "#9d2235"
+      },
+      "package": "com.redhornetstudio.dely",
+      "softwareKeyboardLayoutMode": "pan",
+      "versionCode": 48,
+      "googleServicesFile": "./google-services.json"
+    },
+    "androidStatusBar": {
+      "barStyle": "light-content",
+      "backgroundColor": "#00000000",
+      "translucent": true
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "cce52836-f553-49e7-ac05-7281e9341e1b"
+      }
+    },
+    "plugins": [
+      [
+        "expo-notifications",
+        {
+          "icon": "./assets/dely-notification-icon.png",
+          "color": "#9d2235"
+        }
+      ],
+      "expo-localization"
+    ]
+  },
+  "react-native-google-mobile-ads": {
+    "android_app_id": "ca-app-pub-7790340813129907~6023627497"
+  }
+}
